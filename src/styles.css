@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.ui-orderlist-controls{
+    display: none !important;
+}
+
+.ui-orderlist.ui-orderlist-responsive .ui-orderlist-list-container{
+    width: 100%;
+}
