@@ -1,10 +1,14 @@
-# NgNwDemo
+# RecallFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+## Purpose
+This project demonstrates an angular front end hitting a restful service written in java. Users start out by selecting a year and make. A order list will populate with all models from that year and make. The list is alphabetically sorted and can be filtered using the search box. Upon selecting a model, the recall data table will populate with a list of recalls for the particular year/make/mode. The restful backend leverages the nhtsa api for its data.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## RESTful Services
+All restful service requests are hardcoded to hit localhost:8080. Must deploy the recall rest repo locally for this to work!
 
 ## Code scaffolding
 
